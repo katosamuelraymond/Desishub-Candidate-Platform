@@ -38,8 +38,6 @@
             </div>
         </div>
     </header>
-
-    <!-- Main Content -->
     <main class="container mx-auto px-6 py-12">
         <!-- Tier Assignment Logic Section -->
         <section class="mb-16">
@@ -49,7 +47,6 @@
                     The system uses a <span class="font-semibold text-purple-600">top-down hierarchical approach</span> to ensure candidates are placed in the most advanced tier they qualify for.
                 </p>
             </div>
-
             <!-- Logic Flow Cards -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
                 <!-- Tier 5 -->
@@ -75,7 +72,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Tier 4 -->
                 <div class="tier-card bg-white rounded-lg shadow-md p-6 border-l-4 border-orange-500">
                     <div class="flex items-center mb-4">
@@ -99,7 +95,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Tier 3 -->
                 <div class="tier-card bg-white rounded-lg shadow-md p-6 border-l-4 border-yellow-500">
                     <div class="flex items-center mb-4">
@@ -123,7 +118,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Tier 2 -->
                 <div class="tier-card bg-white rounded-lg shadow-md p-6 border-l-4 border-green-500">
                     <div class="flex items-center mb-4">
@@ -143,7 +137,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Tier 1 -->
                 <div class="tier-card bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500">
                     <div class="flex items-center mb-4">
@@ -163,7 +156,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Tier 0 -->
                 <div class="tier-card bg-white rounded-lg shadow-md p-6 border-l-4 border-gray-400">
                     <div class="flex items-center mb-4">
@@ -184,7 +176,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- Decision Points Table -->
             <div class="bg-white rounded-lg shadow-md p-6 mb-8">
                 <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
@@ -231,7 +222,6 @@
                 </div>
             </div>
         </section>
-
         <!-- Assumptions Section -->
         <section class="mb-16">
             <div class="text-center mb-12">
@@ -240,7 +230,6 @@
                     Key assumptions that guided the design and implementation of the platform.
                 </p>
             </div>
-
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Technical Assumptions -->
                 <div class="bg-white rounded-lg shadow-md p-6 border-t-4 border-blue-500">
@@ -267,7 +256,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <!-- Business Assumptions -->
                 <div class="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-500">
                     <div class="flex items-center mb-4">
@@ -293,7 +281,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <!-- UX Assumptions -->
                 <div class="bg-white rounded-lg shadow-md p-6 border-t-4 border-purple-500">
                     <div class="flex items-center mb-4">
@@ -321,7 +308,6 @@
                 </div>
             </div>
         </section>
-
         <!-- Challenges & Solutions Section -->
         <section class="mb-16">
             <div class="text-center mb-12">
@@ -330,7 +316,6 @@
                     Key technical challenges encountered during development and how they were resolved.
                 </p>
             </div>
-
             <div class="space-y-6">
                 <!-- Challenge 1 -->
                 <div class="challenge-card bg-white rounded-lg shadow-md p-6 border-l-4 border-red-500">
@@ -355,7 +340,6 @@
                         <p class="mt-2 text-gray-600">Hidden fields ensure all boolean values are submitted</p>
                     </div>
                 </div>
-
                 <!-- Challenge 2 -->
                 <div class="challenge-card bg-white rounded-lg shadow-md p-6 border-l-4 border-orange-500">
                     <div class="flex items-center mb-4">
@@ -379,7 +363,6 @@
                         </ul>
                     </div>
                 </div>
-
                 <!-- Challenge 3 -->
                 <div class="challenge-card bg-white rounded-lg shadow-md p-6 border-l-4 border-yellow-500">
                     <div class="flex items-center mb-4">
@@ -418,7 +401,6 @@
                 </div>
             </div>
         </section>
-
         <!-- Technical Implementation -->
         <section>
             <div class="text-center mb-12">
@@ -427,7 +409,6 @@
                     Architecture and technology decisions for the platform.
                 </p>
             </div>
-
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Database Design -->
                 <div class="bg-white rounded-lg shadow-md p-6">
@@ -450,7 +431,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Frontend-Backend -->
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
@@ -472,7 +452,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Error Handling -->
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
@@ -498,7 +477,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Scalability -->
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
@@ -527,7 +505,6 @@
             </div>
         </section>
     </main>
-
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8 mt-16">
         <div class="container mx-auto px-6 text-center">
