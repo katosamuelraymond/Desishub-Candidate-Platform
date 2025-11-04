@@ -54,7 +54,7 @@
 
         @foreach($skills as $key => $label)
         <div class="flex items-center">
-            <!-- Hidden field with value 0 to ensure the field is always submitted -->
+           
             <input type="hidden" name="{{ $key }}" value="0">
             <input type="checkbox" name="{{ $key }}" value="1"
                    class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
