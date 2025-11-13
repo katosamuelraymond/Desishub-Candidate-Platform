@@ -30,7 +30,7 @@
             </div>
 
 
-         <!-- Skill Assessment -->
+    
 <div class="mb-8">
     <h2 class="text-xl font-semibold mb-4">Skill Assessment</h2>
     <p class="text-gray-600 mb-6">Please indicate which skills you possess:</p>
@@ -54,7 +54,7 @@
 
         @foreach($skills as $key => $label)
         <div class="flex items-center">
-           
+
             <input type="hidden" name="{{ $key }}" value="0">
             <input type="checkbox" name="{{ $key }}" value="1"
                    class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">

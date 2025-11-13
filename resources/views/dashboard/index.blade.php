@@ -4,7 +4,7 @@
 <div class="max-w-7xl mx-auto">
     <h1 class="text-3xl font-bold text-gray-800 mb-6">Candidate Dashboard</h1>
 
-    <!-- Tier Statistics -->
+
     <div class="grid grid-cols-2 md:grid-cols-6 gap-4 mb-8">
         @for($i = 0; $i <= 5; $i++)
         <a href="{{ route('dashboard.filter', $i) }}"
@@ -15,7 +15,7 @@
         @endfor
     </div>
 
-    <!-- Filters -->
+
     <div class="bg-white rounded-lg shadow-md p-4 mb-6">
         <div class="flex flex-wrap gap-2">
             <a href="/dashboard"
@@ -31,7 +31,6 @@
         </div>
     </div>
 
-    <!-- Candidates Table -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
         <div class="overflow-x-auto">
             <table class="w-full">

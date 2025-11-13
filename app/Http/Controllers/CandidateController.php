@@ -1,6 +1,4 @@
 <?php
-// app/Http/Controllers/CandidateController.php
-
 namespace App\Http\Controllers;
 
 use App\Models\Candidate;
@@ -59,14 +57,14 @@ class CandidateController extends Controller
 
             Log::debug('Skills data processed', $skills);
 
-            // Determine tier
+
             $tierResult = $this->determineTier($skills);
             Log::info('Tier assigned', [
                 'email' => $validated['email'],
                 'tier' => $tierResult['tier']
             ]);
 
-            // Create candidate
+            //creating a candidate
             $candidate = Candidate::create([
                 'name' => $validated['name'],
                 'email' => $validated['email'],
